@@ -7,9 +7,99 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+  color: #e5e7eb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #fff;
+  flex: 1;
+  padding: 50px 0;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.some-info {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.text-info {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.testimonial {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 50px 0;
+}
+
+.testimonial em {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  margin: 50px 0;
+  padding: 30px;
+  gap: 50px;
+  background-color: #3882f6;
 }
 
 footer {
@@ -17,6 +107,11 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background-color: rgba(83, 83, 168, 0.603);
+  background-color: #1f2937;
   color: #fff;
+  margin-top: auto;
+}
+
+.btn {
+  background-color: #3882f6;
 }
